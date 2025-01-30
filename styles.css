@@ -20,10 +20,7 @@ main {
   background: #323840;
   color: #ECECEC;
   font-family: "Merriweather Sans", serif;
-}
-
-.card-body {
-  background-color: #323840;
+  letter-spacing: 0.5px;
 }
 
 /* Layout */
@@ -35,12 +32,12 @@ main {
   margin-bottom: 1rem;
 }
 
-.card {
+.img-dish {
   margin: 1rem;
   transition: transform 0.3s;
 }
 
-.card:hover {
+.img-dish:hover {
   transform: scale(1.1);
 }
 
@@ -75,6 +72,10 @@ li > .nav-link:hover {
   color: #F2955E;
 }
 
+footer > p, div > h2 {
+  color: #F2955E;
+}
+
 /* Components */
 .img-logo {
   width: 80px;
@@ -82,23 +83,13 @@ li > .nav-link:hover {
   border-radius: 50%;
 }
 
-.img-home {
+.img-home, .img-dish {
   border-radius: 10%;
   box-shadow: 0px 0px 5px #ECECEC;
 }
 
-.card {
+#btn-contact {
   box-shadow: 0px 0px 2px #ECECEC;
-}
-
-article > div.card {
-  width: 18rem;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 #btn-back-to-top {
@@ -107,18 +98,21 @@ article > div.card {
   right: 20px;
   display: none;
   z-index: 10;
-  background-color: #F2955E;
 }
 
 #btn-back-to-top:hover {
   color: #F2955E;
   background-color: #323840;
+  border: #F2955E solid 1px;
 }
 
 #btn-contact {
-  background-color: #F2955E;
   color: #323840;
   border-radius: 50px;
+}
+
+#btn-contact, #btn-back-to-top {
+  background-color: #F2955E;
   border: #F2955E solid 1px;
 }
 
@@ -129,24 +123,32 @@ article > div.card {
   border: #F2955E solid 1px;
 }
 
+/* Table */
+th, td {
+  background-color: #323840 !important;
+}
+
+table > thead > tr > th {
+  color: #F2955E !important;
+}
+
+table > tbody > tr > td {
+  color: #ECECEC !important;
+}
 
 /* Titles */
 h1, h2 {
-  font-family: "Great Vibes", serif;
+  font-family: "Dancing Script", serif;
 }
 
 h1 {
-  text-shadow: 0px 0px 2px #ECECEC;
+  text-shadow: 0px 0px 1px #ECECEC;
 }
 
 h2 {
   font-size: 3rem;
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
-}
-
-article > div.card > div.card-body > h3 {
-  color: #ECECEC;
 }

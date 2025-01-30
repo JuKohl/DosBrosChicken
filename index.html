@@ -15,7 +15,7 @@
   <title>Dos Bros Chicken</title>
 </head>
 <body>
-  <!-- Start main navbar-->
+  <!-- Start : main navbar-->
   <header class="d-flex py-3 header-navbar align-items-center justify-content-between">
       <a href="#home" class="mx-4">
         <img src="./img/logo.jpg" alt="logo du snack représentant deux poulets" class="img-logo">
@@ -29,170 +29,179 @@
         <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link">Nous contacter</a></button></li>
       </ul>
   </header>
-  <!-- End main navbar -->
+  <!-- End : main navbar -->
   <main>
-    <!-- Start button back to the top -->
+    <!-- Start : button back to the top -->
     <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>    
     </button>
-    <!-- End button back to the top -->
+    <!-- End : button back to the top -->
     <!-- Start : presentation -->
     <div class="container col-xxl-8 px-4 py-5" id="home">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-12 col-sm-8 col-lg-6">
-          <img src="./img/lelibanais.jpg" alt="photo montrant le cuisinier et ses spécialités dans son food truck" class="d-block mx-lg-auto img-fluid img-home" width="700" height="500" loading="lazy">
+          <img src="./img/img-presentation.jpg" alt="photo montrant l'entrée du snack avec une bowl" class="d-block mx-lg-auto img-fluid img-home" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-1 fw-bold">Le Libanais</h1>
-          <h4 class="m-4 text-center">Deux cultures, une explosion de saveurs</h4>
-          <p class="lead my-4 text-center">Food truck de spécialités libanaises et arméniennes au marché des Réformés à Marseille.</p>
+          <h1 class="display-1 fw-bold">Dos Bros Chicken</h1>
+          <h4 class="m-4 text-center">Les paulos à votre service.</h4>
+          <p class="lead my-4 text-center">Poulet maison nature ou épicé avec des produits frais</p>
+          <p class="lead my-4 text-center">Snack rue Fongate à Marseille.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-center">
-            <button type="button" class="btn btn-success btn-lg px-4"><a href="#contact" class="nav-link">Me contacter</a></button>
+            <button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link p-3">Nous contacter</a></button>
           </div>
         </div>
       </div>
     </div>
     <!-- End : presentation -->
-    <!-- Start : dishes, 3 blocks -->
+    <!-- Start : burgers, 3 blocks -->
     <div class="container div-dishes">
-      <div id="speciality">
-        <h2 class="display-2">Plats</h2>
-        <article class="article-content">
-          <div class="card">
-            <img src="./img/beurek.jpg" class="card-img-top" alt="photo montrant plusieurs beureks">
-            <div class="card-body">
-              <h3 class="card-title">Beureks</h3>
-            </div>
+      <div class="container marketing">    
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 id="burgers" class="featurette-heading fw-normal lh-1">Burgers</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>SOLO</th>
+                  <th>MENU</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Signature</td>
+                  <td>7,90</td>
+                  <td>10,90</td>
+                </tr>
+                <tr>
+                  <td>Grec</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+                <tr>
+                  <td>Méxicain</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="card">
-            <img src="./img/taboulé.jpg" class="card-img" alt="photo montrant un bol de taboulé libanais">
-            <div class="card-body">
-              <h3 class="card-title">Taboulé</h3>
-            </div>
+          <div class="col-md-5">
+            <img src="./img/img-burger.jpg" alt="photo montrant un burger" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
           </div>
-          <div class="card">
-            <img src="./img/hummus.jpg" class="card-img" alt="photo montrant un bol de houmous accompagné de pain libanais">
-            <div class="card-body">
-              <h3 class="card-title">Houmous</h3>
-            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- End : first burgers' block -->
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 id="wraps" class="featurette-heading fw-normal lh-1">Wraps</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>SOLO</th>
+                  <th>MENU</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Signature</td>
+                  <td>7,90</td>
+                  <td>10,90</td>
+                </tr>
+                <tr>
+                  <td>Grec</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+                <tr>
+                  <td>Méxicain</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="card">
-            <img src="./img/dolma.jpg" class="card-img" alt="photo montrant plusieurs dolmas">
-            <div class="card-body">
-              <h3 class="card-title">Dolmas</h3>
-            </div>
+          <div class="col-md-5 order-md-1">
+            <img src="./img/img-wrap.jpg" alt="photo montrant un wrap" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
           </div>
-          <div class="card">
-            <img src="./img/falafels.jpg" class="card-img" alt="photo montrant plusieurs falafels">
-            <div class="card-body">
-              <h3 class="card-title">Falafels</h3>
-            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- End : second wraps' block -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 id="bowls" class="featurette-heading fw-normal lh-1">Bowls</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>SOLO</th>
+                  <th>MENU</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Signature</td>
+                  <td>7,90</td>
+                  <td>10,90</td>
+                </tr>
+                <tr>
+                  <td>Grec</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+                <tr>
+                  <td>Méxicain</td>
+                  <td>8,50</td>
+                  <td>11,50</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="card">
-            <img src="./img/lamajoun.jpg" class="card-img" alt="photo montrant plusieurs lamajoun, une pizza libanaise">
-            <div class="card-body">
-              <h3 class="card-title">Lamajoun</h3>
-            </div>
+          <div class="col-md-5">
+            <img src="./img/img-bowl.jpg" alt="photo montrant un bowl" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
           </div>
-        </article>
-        <br>
-        <!-- End : first dishes' block -->
-        <h2 class="display-2">Sandwichs</h2>
-        <article class="article-content">
-          <div class="card">
-            <img src="./img/kebab.jpg" class="card-img" alt="photo montrant un sandwich au kebab">
-            <div class="card-body">
-              <h3 class="card-title">Kebab</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/falafel-sandwish.jpg" class="card-img" alt="photo montrant un sandwich aux falafels">
-            <div class="card-body">
-              <h3 class="card-title">Falafel</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/chicken.jpg" class="card-img" alt="photo montrant un sandwich au poulet">
-            <div class="card-body">
-              <h3 class="card-title">Poulet</h3>
-            </div>
-          </div>
-        </article>
-        <br>
-        <!-- End : second dishes' block -->
-        <h2 class="display-2">Desserts</h2>
-        <article class="article-content">
-          <div class="card">
-            <img src="./img/baklava.jpg" class="card-img" alt="photo montrant plusieurs baklavas">
-            <div class="card-body">
-              <h3 class="card-title">Baklavas</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/baklavas.jpg" class="card-img" alt="photo montrant plusieurs baklavas">
-            <div class="card-body">
-              <h3 class="card-title">Baklavas</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/walnut-baklava.jpg" class="card-img" alt="photo montrant plusieurs baklavas">
-            <div class="card-body">
-              <h3 class="card-title">Baklavas</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./img/choreg.jpg" class="card-img" alt="photo montrant plusieurs baklavas">
-            <div class="card-body">
-              <h3 class="card-title">Choreg</h3>
-            </div>
-          </div>
-        </article>
+        </div>
+        <hr class="featurette-divider">
       </div>
       <!-- End : dishes -->
       <!-- Start : contact -->
       <div id="contact">
-        <h2 class="display-2 mt-4">Pour me contacter</h2>
-        <form class="col-10 mx-auto">
-          <div class="mb-3">
-            <label for="nameInput" class="form-label">Nom & prénom<sup>*</sup></label>
-            <input type="text" class="form-control" id="username" name="firstname" placeholder="Votre nom et prénom" required>      
-          </div>
-          <div class="mb-3">
-            <label for="subject" class="form-label">Message</label>
-            <textarea class="form-control" name="subject" id="subject" rows="4" placeholder="Votre message"></textarea>
-          </div>
-          <div class="d-flex justify-content-center">
-            <button class="btn btn-success m-4" type="submit">Envoyer</button>
-            <button id="btn-cancel" class="btn btn-danger m-4" type="reset">Annuler</button>
-          </div>
-        </form>
+        <h2 class="display-2 mt-4">Pour nous contacter</h2>
       </div>
       <!-- End : contact -->
       <!-- Start : where and when -->
       <div class="container">
-        <h2 class="display-2 mt-4">Pour me trouver</h2>
+        <h2 class="display-2 mt-4">Pour nous trouver</h2>
         <div class="text-center div-work">
-          <p>Mardi & Samedi</p>
-          <p>11h - 16h</p>
+          <p>Du Mardi au Jeudi</p>
+          <p>11h30 - 14h30</p>
+          <p>19h - 22h</p>
+          <p>Le Vendredi et Samedi</p>
+          <p>11h30 - 14h30</p>
+          <p>19h - 23h</p>
+          <p>Et le Dimanche</p>
+          <p>11h30 - 14h30</p>
+          <p>19h - 22h</p>
           <p>Marché des Réformés</p>
         </div>
         <div class="text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d280.0410865611883!2d5.3865396411386035!3d43.30034139976914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1714147067904!5m2!1sfr!2sfr" height="400" class="w-max" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.0225302308622!2d5.381455779889018!3d43.29341595574004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c104de78745b%3A0x6593bbcccfe0cb03!2sDosBros%20Chicken!5e0!3m2!1sfr!2sfr!4v1738242614311!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
       </div>
       <!-- End : where and when -->
-      <!-- Start : fetch API used-->
-      <div id="others-dishes-container">
-      </div>
-      <!-- End : fetch API used-->
     </div>
   </main>
   <footer class="py-3 footer-navbar">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#home" class="nav-link px-2 ">Accueil</a></li>
-      <li class="nav-item"><a href="#speciality" class="nav-link px-2 ">Spécialités</a></li>
-      <li class="nav-item"><a href="#contact" class="nav-link px-2  ">Contact</a></li>
-    </ul>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
+      <li class="nav-item"><a href="#burgers" class="nav-link">Burgers</a></li>
+      <li class="nav-item"><a href="#wraps" class="nav-link">Wraps</a></li>
+      <li class="nav-item"><a href="#bowls" class="nav-link">Bowls</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link">Nous contacter</a></button></li>
+  </ul>
     <p class="text-center">© 2025</p>
   </footer>
 </body>

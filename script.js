@@ -23,14 +23,13 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-
-
-
-
-
 //DOM manipulation
 let secondHeading = document.querySelector("h1");
-secondHeading.style.color = "red"; 
+secondHeading.style.color = "#F2955E"; 
+
+
+
+
 
 //Event listener
 //H3's color changes to red when mouse hovers over it
