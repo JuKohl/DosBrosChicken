@@ -1,0 +1,152 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+/* General */
+main {
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  line-height: 1.6;
+  background: #323840;
+  color: #ECECEC;
+  font-family: "Merriweather Sans", serif;
+}
+
+.card-body {
+  background-color: #323840;
+}
+
+/* Layout */
+.article-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin: 1rem;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.div-work > p {
+  font-size: 2rem;
+}
+
+/* Header & footer */
+.header-navbar, .footer-navbar {
+  background: #323840;
+}
+
+ul {
+  justify-content: center;
+}
+
+li {
+  padding: 0.5rem;
+  list-style: none;
+  transition: 0.3s;
+}
+
+
+li > .nav-link, #btn-contact {
+  color: #F2955E;
+  font-family: "Dancing Script", serif;
+  font-size: 2rem;
+}
+
+li > .nav-link:hover {
+  text-decoration: underline;
+  color: #F2955E;
+}
+
+/* Components */
+.img-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.img-home {
+  border-radius: 10%;
+  box-shadow: 0px 0px 5px #ECECEC;
+}
+
+.card {
+  box-shadow: 0px 0px 2px #ECECEC;
+}
+
+article > div.card {
+  width: 18rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 10;
+  background-color: #F2955E;
+}
+
+#btn-back-to-top:hover {
+  color: #F2955E;
+  background-color: #323840;
+}
+
+#btn-contact {
+  background-color: #F2955E;
+  color: #323840;
+  border-radius: 50px;
+  border: #F2955E solid 1px;
+}
+
+#btn-contact:hover {
+  background-color: #323840;
+  color: #F2955E;
+  border-radius: 50px;
+  border: #F2955E solid 1px;
+}
+
+
+/* Titles */
+h1, h2 {
+  font-family: "Great Vibes", serif;
+}
+
+h1 {
+  text-shadow: 0px 0px 2px #ECECEC;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+article > div.card > div.card-body > h3 {
+  color: #ECECEC;
+}
