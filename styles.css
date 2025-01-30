@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-a {
+a, .phone-number {
   color: initial;
   text-decoration: none;
 }
@@ -72,7 +72,7 @@ li > .nav-link:hover {
   color: #F2955E;
 }
 
-footer > p, div > h2 {
+footer > p, div > h2, .phone-number {
   color: #F2955E;
 }
 
