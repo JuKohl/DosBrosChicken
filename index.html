@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Food truck de spécialités libanaises et arméniennes au marché des Réformés à Marseille.">
-  <link rel="icon" type="image/png" href="./img/chef-hat.png">
+  <link rel="icon" type="image/png" href="./img/drumstick.png">
   <link rel="stylesheet" href="./styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,18 +16,29 @@
 </head>
 <body>
   <!-- Start : main navbar-->
-  <header class="d-flex py-3 header-navbar align-items-center justify-content-between">
-      <a href="#home" class="mx-4">
-        <img src="./img/logo.jpg" alt="logo du snack représentant deux poulets" class="img-logo">
-      </a>
-      <ul class="nav nav-pills w-100 d-flex justify-content-around">
-        <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
-        <li class="nav-item"><a href="#burgers" class="nav-link">Burgers</a></li>
-        <li class="nav-item"><a href="#wraps" class="nav-link">Wraps</a></li>
-        <li class="nav-item"><a href="#bowls" class="nav-link">Bowls</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link">Nous contacter</a></button></li>
-      </ul>
+  <header class="navbar navbar-expand-lg d-flex py-3 header-navbar align-items-center justify-content-between">
+    <div class="container">
+      <!-- Start : logo-->
+        <a href="#home" class="mx-4">
+          <img src="./img/logo.jpg" alt="logo du snack représentant deux poulets" class="img-logo">
+        </a>
+      <!-- End : logo-->
+      <!-- Start : burger button -->
+      <button class="navbar-toggler" style="background-color: #F2955E;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End : burger button -->
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar w-100 d-flex flex-lg-row flex-column justify-content-around">
+          <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="#burgers" class="nav-link">Burgers</a></li>
+          <li class="nav-item"><a href="#wraps" class="nav-link">Wraps</a></li>
+          <li class="nav-item"><a href="#bowls" class="nav-link">Bowls</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link p-2">Nous contacter</a></button></li>
+        </ul>
+      </div>
+    </div>
   </header>
   <!-- End : main navbar -->
   <main>
@@ -64,32 +75,32 @@
             <table class="table">
               <thead>
                 <tr>
-                  <th></th>
-                  <th>SOLO</th>
-                  <th>MENU</th>
+                  <th class="col-6"></th>
+                  <th class="col-3 text-center"><h3>Solo</h3></th>
+                  <th class="col-3 text-center"><h3>Menu</h3></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Signature</td>
-                  <td>7,90</td>
-                  <td>10,90</td>
+                  <td><h3>Signature</h3><p class="p-description-dish">Sauce maison, 2 filets frais, cheddar fondu, coleslaw, cornichons</p></td>
+                  <td class="text-center td-price">7,90</td>
+                  <td class="text-center td-price">10,90</td>
                 </tr>
                 <tr>
-                  <td>Grec</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Grec</h3><p class="p-description-dish">Sauce blanche maison, 2 filets frais, feta, tomates, concombres, oignons</p></td>
+                  <td class="text-center td-price">8,50</td>
+                  <td class="text-center td-price">11,50</td>
                 </tr>
                 <tr>
-                  <td>Méxicain</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Méxicain</h3><p class="p-description-dish">Sauce maison, 2 filets frais, cheddar fondu, piments jalapeno, tomates, maïs</p></td>
+                  <td class="text-center td-price">8,50</td>
+                  <td class="text-center td-price">11,50</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="col-md-5">
-            <img src="./img/img-burger.jpg" alt="photo montrant un burger" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
+            <img src="./img/img-burger.jpg" alt="photo montrant un bowl" class="img-dish img-fluid" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">
@@ -100,32 +111,32 @@
             <table class="table">
               <thead>
                 <tr>
-                  <th></th>
-                  <th>SOLO</th>
-                  <th>MENU</th>
+                  <th class="col-6"></th>
+                  <th class="col-3 text-center"><h3>Solo</h3></th>
+                  <th class="col-3 text-center"><h3>Menu</h3></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Signature</td>
-                  <td>7,90</td>
-                  <td>10,90</td>
+                  <td><h3>Signature</h3></td>
+                  <td class="text-center td-price">7,90</td>
+                  <td class="text-center td-price">10,90</td>
                 </tr>
                 <tr>
-                  <td>Grec</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Grec</h3></td>
+                  <td class="text-center td-price">8,50</td>
+                  <td class="text-center td-price">11,50</td>
                 </tr>
                 <tr>
-                  <td>Méxicain</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Méxicain</h3></td>
+                  <td class="text-center td-price">8,50</td>
+                  <td class="text-center td-price">11,50</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="col-md-5 order-md-1">
-            <img src="./img/img-wrap.jpg" alt="photo montrant un wrap" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
+            <img src="./img/img-wrap.jpg" alt="photo montrant un wrap" class="img-dish img-fluid" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">
@@ -136,32 +147,32 @@
             <table class="table">
               <thead>
                 <tr>
-                  <th></th>
-                  <th>SOLO</th>
-                  <th>MENU</th>
+                  <th class="col-6"></th>
+                  <th class="col-3 text-center"><h3>Solo</h3></th>
+                  <th class="col-3 text-center"><h3>Menu</h3></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Signature</td>
-                  <td>7,90</td>
-                  <td>10,90</td>
+                  <td><h3>Signature</h3><p class="p-description-dish">Frites, sauce maison, 2 filets frais, cheddar fondu, coleslaw, cornichons</p></td>
+                  <td class="text-center td-price">11</td>
+                  <td class="text-center td-price">12</td>
                 </tr>
                 <tr>
-                  <td>Grec</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Grec</h3><p class="p-description-dish">Frites, sauce blanche maison, 2 filets frais, feta, tomates, concombres, oignons</p></td>
+                  <td class="text-center td-price">11,50</td>
+                  <td class="text-center td-price">12,50</td>
                 </tr>
                 <tr>
-                  <td>Méxicain</td>
-                  <td>8,50</td>
-                  <td>11,50</td>
+                  <td><h3>Méxicain</h3><p class="p-description-dish">Frites, sauce maison, 2 filets frais, cheddar fondu, piments jalapeno, tomates, maïs</p></td>
+                  <td class="text-center td-price">11,50</td>
+                  <td class="text-center td-price">12,50</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div class="col-md-5">
-            <img src="./img/img-bowl.jpg" alt="photo montrant un bowl" class="d-block mx-lg-auto img-fluid img-dish" width="700" height="500" loading="lazy">
+            <img src="./img/img-bowl.jpg" alt="photo montrant un bowl" class="img-dish img-fluid" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">

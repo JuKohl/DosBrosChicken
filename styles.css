@@ -136,6 +136,14 @@ table > tbody > tr > td {
   color: #ECECEC !important;
 }
 
+.p-description-dish {
+  font-weight: 300;
+}
+
+.td-price{
+  font-size: 2rem;
+}
+
 /* Titles */
 h1, h2 {
   font-family: "Dancing Script", serif;
@@ -145,8 +153,8 @@ h1 {
   text-shadow: 0px 0px 1px #ECECEC;
 }
 
-h2 {
-  font-size: 3rem;
+div > h2 {
+  font-size: 5rem;
 }
 
 h1, h2 {
