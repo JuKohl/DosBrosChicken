@@ -26,3 +26,10 @@ function backToTop() {
 //DOM manipulation
 let secondHeading = document.querySelector("h1");
 secondHeading.style.color = "#F2955E"; 
+
+//Button contact navigation
+document.querySelectorAll(".btn-contact").forEach(button => {
+  button.addEventListener("click", function() {
+    window.location.href = "#contact";
+  });
+});

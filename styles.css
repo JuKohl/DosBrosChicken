@@ -48,12 +48,12 @@ li {
   transition: 0.3s;
 }
 
-li > .nav-link, #btn-contact, #btn-contact-footer {
+li > .nav-link, #btn-contact, #btn-contact-nav, #btn-contact-footer {
   color: #F2955E;
   font-family: "Dancing Script", serif;
 }
 
-#btn-contact, li > .nav-link-header {
+#btn-contact, #btn-contact-nav, li > .nav-link-header {
   font-size: 2rem;
 }
 
@@ -90,7 +90,7 @@ footer > p, section > h2,div > h2, .phone-number {
   border-radius: 10%;
 }
 
-#btn-contact, #btn-contact-footer {
+#btn-contact, #btn-contact-nav, #btn-contact-footer {
   box-shadow: 0px 0px 2px #ECECEC;
 }
 
@@ -108,17 +108,17 @@ footer > p, section > h2,div > h2, .phone-number {
   border: #F2955E solid 1px;
 }
 
-#btn-contact, #btn-contact-footer {
+#btn-contact, #btn-contact-nav, #btn-contact-footer {
   color: #323840;
   border-radius: 50px;
 }
 
-#btn-contact, #btn-back-to-top, #btn-contact-footer {
+#btn-contact, #btn-contact-nav, #btn-back-to-top, #btn-contact-footer {
   background-color: #F2955E;
   border: #F2955E solid 1px;
 }
 
-#btn-contact:hover, #btn-contact-footer:hover {
+#btn-contact:hover, #btn-contact-nav:hover, #btn-contact-footer:hover {
   background-color: #323840;
   color: #F2955E;
   border-radius: 50px;
@@ -140,6 +140,7 @@ table > tbody > tr > td {
 
 .p-description-dish {
   font-weight: 300;
+  font-size: 1rem;
 }
 
 .td-price{
@@ -161,4 +162,9 @@ div > h2 {
 
 h1, h2 {
   text-align: center;
+}
+
+.title-dish {
+  font-size: 2rem;
+  font-weight: bold;
 }
