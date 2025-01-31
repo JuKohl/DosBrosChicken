@@ -63,7 +63,7 @@ li > .nav-link:hover {
   color: #F2955E;
 }
 
-footer > p, div > h2, .phone-number {
+footer > p, section > h2,div > h2, .phone-number {
   color: #F2955E;
 }
 
