@@ -24,14 +24,6 @@ main {
 }
 
 /* Layout */
-.article-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 1rem;
-}
-
 .img-dish {
   margin: 1rem;
   transition: transform 0.3s;
@@ -65,7 +57,6 @@ li > .nav-link, #btn-contact, #btn-contact-footer {
 #btn-contact, li > .nav-link-header {
   font-size: 2rem;
 }
-
 
 li > .nav-link:hover {
   text-decoration: underline;
