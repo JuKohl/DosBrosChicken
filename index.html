@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Food truck de spécialités libanaises et arméniennes au marché des Réformés à Marseille.">
+  <meta name="description" content="Snack qui propose différents sandwichs à base du poulet rue Fongate à Marseille.">
   <link rel="icon" type="image/png" href="./img/drumstick.png">
   <link rel="stylesheet" href="./styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,12 +30,11 @@
       <!-- End : burger button -->
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar w-100 d-flex flex-lg-row flex-column justify-content-around">
-          <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
-          <li class="nav-item"><a href="#burgers" class="nav-link">Burgers</a></li>
-          <li class="nav-item"><a href="#wraps" class="nav-link">Wraps</a></li>
-          <li class="nav-item"><a href="#bowls" class="nav-link">Bowls</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-          <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link p-2">Nous contacter</a></button></li>
+          <li class="nav-item"><a href="#home" class="nav-link nav-link-header">Accueil</a></li>
+          <li class="nav-item"><a href="#burgers" class="nav-link nav-link-header">Burgers</a></li>
+          <li class="nav-item"><a href="#wraps" class="nav-link nav-link-header">Wraps</a></li>
+          <li class="nav-item"><a href="#bowls" class="nav-link nav-link-header">Bowls</a></li>
+          <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link px-5">Nous contacter</a></button></li>
         </ul>
       </div>
     </div>
@@ -59,14 +58,14 @@
           <p class="lead my-4 text-center">Poulet maison nature ou épicé avec des produits frais</p>
           <p class="lead my-4 text-center">Snack rue Fongate à Marseille.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-center">
-            <button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link p-3">Nous contacter</a></button>
+            <button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link px-5">Nous contacter</a></button>
           </div>
         </div>
       </div>
     </div>
     <!-- End : presentation -->
-    <!-- Start : burgers, 3 blocks -->
-    <div class="container div-dishes">
+    <div class="container">
+    <!-- Start : burgers' block, 3 blocks of dishes -->
       <div class="container marketing">    
         <hr class="featurette-divider">
         <div class="row featurette">
@@ -100,11 +99,12 @@
             </table>
           </div>
           <div class="col-md-5">
-            <img src="./img/img-burger.jpg" alt="photo montrant un bowl" class="img-dish img-fluid" width="500" height="500" loading="lazy">
+            <img src="./img/img-burger.jpg" alt="photo montrant un bowl" class="img-dish img-fluid mx-auto" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">
         <!-- End : first burgers' block -->
+        <!-- Start : second wraps' block -->
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 id="wraps" class="featurette-heading fw-normal lh-1">Wraps</h2>
@@ -136,11 +136,12 @@
             </table>
           </div>
           <div class="col-md-5 order-md-1">
-            <img src="./img/img-wrap.jpg" alt="photo montrant un wrap" class="img-dish img-fluid" width="500" height="500" loading="lazy">
+            <img src="./img/img-wrap.jpg" alt="photo montrant un wrap" class="img-dish img-fluid mx-auto" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">
         <!-- End : second wraps' block -->
+        <!-- Start : third bowls' block -->
         <div class="row featurette">
           <div class="col-md-7">
             <h2 id="bowls" class="featurette-heading fw-normal lh-1">Bowls</h2>
@@ -172,29 +173,32 @@
             </table>
           </div>
           <div class="col-md-5">
-            <img src="./img/img-bowl.jpg" alt="photo montrant un bowl" class="img-dish img-fluid" width="500" height="500" loading="lazy">
+            <img src="./img/img-bowl.jpg" alt="photo montrant un bowl" class="img-dish img-fluid mx-auto" width="500" height="500" loading="lazy">
           </div>
         </div>
         <hr class="featurette-divider">
       </div>
-      <!-- End : dishes -->
-      <!-- Start : contact -->
-      <div id="contact">
-        <h2 class="display-2 mt-4">Pour nous contacter</h2>
-        <div class="containe d-flex justify-content-evenly">
-          <a href="tel:0600000000" class="phone-number"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2955E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>06 00 00 00 00</a>
-          <a class="text-body-secondary" href="https://www.instagram.com/dosbros_chicken/?igsh=dTR5bGptNXlrenJq"><img src="./img/Instagram_logo_2022.svg" width="48" height="48" alt="lien vers la page Instagram de Dos Bros Chicken" /></a>
+      <!-- End : dishes' block -->
+      <!-- Start : our history -->
+      <div class="container col-xxl-8 px-4">
+        <h2 class="lh-1 mb-3 display-2 mt-4">Notre histoire</h2>
+        <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./img/photo.jpg" class="d-block img-fluid img-photo" alt="photo des deux frères devant Dos Bros Chicken" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <p class="lead">Tout est parti d'un film d'animation où 2 frères font des tacos ensemble. Du coup, on s'est dit : "Pourquoi pas nous ?". Voilà comment l'histoire de Dos Bros Chicken a débuté.</p>
+            <p class="lead">Pourquoi une version grecque ? Après un voyage en Grèce, on a trop aimé leur style de nourriture.</p>
+            <p class="lead">Et pourquoi une version mexicaine ? C'est à cause du piment jalapeno. On l'a goûté, on a trop aimé. Du coup, on a voulu partager.</p>
           </div>
         </div>
       </div>
-      <!-- End : contact -->
+      <hr class="featurette-divider">
+      <!-- End : our history -->
       <!-- Start : where and when -->
       <div class="container">
         <h2 class="display-2 mt-4">Pour nous trouver</h2>
-        <h2 class="display-2 mt-4">A propos de nous</h2>
-        <h2 class="display-2 mt-4">Pour commander</h2>
-
-        <div class="text-center div-work">
+        <div class="text-center">
           <table class="table">
             <thead>
               <tr>
@@ -206,34 +210,54 @@
             <tbody>
               <tr>
                 <td><h3 class="mt-2">Du mardi au dimanche</h3></td>
-                <td class="text-center td-price">11h30 - 14h30</td>
-                <td class="text-center td-price">19h - 22h</td>
+                <td class="text-center td-price p-4">11h30 - 14h30</td>
+                <td class="text-center td-price p-4">19h - 22h</td>
               </tr>
               <tr>
                 <td><h3 class="mt-2">*Vendredi et Samedi</h5></td>
-                <td class="text-center td-price">11h30 - 14h30</td>
-                <td class="text-center td-price">De 19h jusqu'à 23h</td>
-              </tr>
-            </tbody>
-          </table>
+                  <td class="text-center td-price p-4">11h30 - 14h30</td>
+                  <td class="text-center td-price p-4">De 19h jusqu'à 23h</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="text-center">
+            <iframe class="img-fluid mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.0225302308622!2d5.381455779889018!3d43.29341595574004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c104de78745b%3A0x6593bbcccfe0cb03!2sDosBros%20Chicken!5e0!3m2!1sfr!2sfr!4v1738242614311!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+          </div>
+          <hr class="featurette-divider">
         </div>
-        <div class="text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.0225302308622!2d5.381455779889018!3d43.29341595574004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c104de78745b%3A0x6593bbcccfe0cb03!2sDosBros%20Chicken!5e0!3m2!1sfr!2sfr!4v1738242614311!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+        <!-- End : where and when -->
+        <!-- Start : contact section -->
+        <div id="contact" class="container">
+          <h2 class="display-2 mt-4">Pour nous contacter</h2>
+          <div class="container w-100 flex-lg-row flex-column d-flex justify-content-evenly align-items-center">
+            <a href="tel:0600000000" class="phone-number"><svg xmlns="http://www.w3.org/2000/svg" class="mx-4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F2955E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>06 00 00 00 00</a>
+            <a class="text-body-secondary" href="https://www.instagram.com/dosbros_chicken/?igsh=dTR5bGptNXlrenJq"><img src="./img/Instagram_logo_2022.svg" class="img-command" width="96" height="96" alt="lien vers la page Instagram de Dos Bros Chicken" /></a>
+          </div>
+          <hr class="featurette-divider">
+        </div>
+        <!-- End : contact section -->
+        <!-- Start : command section -->
+        <div class="container">
+          <h2 class="display-2 mt-4">Pour commander</h2>
+          <div class="containe d-flex justify-content-evenly m-4">
+            <a class="text-body-secondary" href="https://www.instagram.com/dosbros_chicken/?igsh=dTR5bGptNXlrenJq"><img src="./img/delivroo.png" class="img-command" width="96" height="96" alt="lien vers la page Delivroo de Dos Bros Chicken" /></a>
+            <a class="text-body-secondary" href="https://www.instagram.com/dosbros_chicken/?igsh=dTR5bGptNXlrenJq"><img src="./img/ubereats.png" class="img-command" width="96" height="96" alt="lien vers la page Uber Eats de Dos Bros Chicken" /></a>
+          </div>
+          <hr class="featurette-divider">
+        </div>
+        <!-- End : command section -->
       </div>
-      <!-- End : where and when -->
-      <!-- Start : commands' links -->
-      <!-- End : commands' links -->
     </div>
   </main>
   <footer class="py-3 footer-navbar">
     <ul class="nav justify-content-center pb-3 mb-3">
-      <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
-      <li class="nav-item"><a href="#burgers" class="nav-link">Burgers</a></li>
-      <li class="nav-item"><a href="#wraps" class="nav-link">Wraps</a></li>
-      <li class="nav-item"><a href="#bowls" class="nav-link">Bowls</a></li>
-      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-      <li><button type="button" class="btn"><a href="#contact" id="btn-contact" class="nav-link">Nous contacter</a></button></li>
-  </ul>
+      <li class="nav-item footer-items"><a href="#home" class="nav-link">Accueil</a></li>
+      <li class="nav-item footer-items"><a href="#burgers" class="nav-link">Burgers</a></li>
+      <li class="nav-item footer-items"><a href="#wraps" class="nav-link">Wraps</a></li>
+      <li class="nav-item footer-items"><a href="#bowls" class="nav-link">Bowls</a></li>
+      <li><button type="button" class="btn"><a href="#contact" id="btn-contact-footer" class="nav-link px-2 py-0">Nous contacter</a></button></li>
+    </ul>
     <p class="text-center">© 2025</p>
   </footer>
 </body>
