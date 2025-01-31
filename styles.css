@@ -144,6 +144,10 @@ table > tbody > tr > td {
 }
 
 .td-price{
+  font-size: 1.5rem;
+}
+
+.td-hours{
   font-size: 1rem;
 }
 
@@ -165,6 +169,6 @@ h1, h2 {
 }
 
 .title-dish {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
